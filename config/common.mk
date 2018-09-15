@@ -385,3 +385,6 @@ ifneq ($(OPTOUT_FOSS), true)
         FDroidPrivilegedExtension \
         additional_repos.xml
 endif
+
+# IPTABLES Block script
+PRODUCT_PACKAGES += z_iptables
