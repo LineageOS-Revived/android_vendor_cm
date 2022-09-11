@@ -373,7 +373,6 @@ ifneq ($(OPTOUT_FOSS), true)
         FakeStore \
         IchnaeaNlpBackend \
         NominatimNlpBackend \
-        com.google.android.maps \
         FDroid \
         FDroidPrivilegedExtension \
         additional_repos.xml
