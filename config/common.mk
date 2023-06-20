@@ -371,8 +371,6 @@ ifneq ($(OPTOUT_FOSS), true)
         GmsCore \
         GsfProxy \
         FakeStore \
-        IchnaeaNlpBackend \
-        NominatimNlpBackend \
         FDroid \
         FDroidPrivilegedExtension \
         additional_repos.xml
