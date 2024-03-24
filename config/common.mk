@@ -136,7 +136,7 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     Eleven \
     ExactCalculator \
-    Jelly \
+    Fennec \
     LockClock \
     Trebuchet \
     Updater \
