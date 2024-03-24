@@ -371,3 +371,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
 -include vendor/cyngn/product.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
+
+ifneq ($(OPTOUT_FOSS), true)
+    PRODUCT_PACKAGES += \
+        AuroraDroid \
+        AuroraStore \
+        AuroraServices
+
+    PRODUCT_PACKAGES += \
+        GmsCore \
+        GsfProxy \
+        FakeStore \
+        IchnaeaNlpBackend \
+        NominatimNlpBackend \
+        com.google.android.maps \
+        FDroid \
+        FDroidPrivilegedExtension \
+        additional_repos.xml
+endif
