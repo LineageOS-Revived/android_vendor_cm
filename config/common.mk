@@ -1,7 +1,7 @@
 PRODUCT_BRAND ?= LineageOS
 
 # Unofficial patch level
-ADDITIONAL_DEFAULT_PROPERTIES += ro.cm.custom_version=2024-03-01
+ADDITIONAL_DEFAULT_PROPERTIES += ro.cm.custom_version=2024-04-01
 
 # Sign with own key
 ifneq ($(OWN_KEYS_DIR),)
