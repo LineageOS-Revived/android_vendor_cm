@@ -36,6 +36,6 @@
     </webviewprovider>
 
     <!-- The default WebView implementation -->
-    <webviewprovider description="Cromite WebView" packageName="org.cromite.webview" availableByDefault="true" />
+    <webviewprovider description="AOSP WebView" packageName="com.android.webview" availableByDefault="true" />
 
 </webviewproviders>
