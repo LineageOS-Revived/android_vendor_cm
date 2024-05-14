@@ -3,9 +3,6 @@ PRODUCT_BRAND ?= LineageOS
 # Unofficial patch level
 ADDITIONAL_DEFAULT_PROPERTIES += ro.cm.custom_version=2024-05-01
 
-# Cromite webview
-PRODUCT_PACKAGES += cromite-webview
-
 # Sign with own key
 ifneq ($(OWN_KEYS_DIR),)
 +PRODUCT_DEFAULT_DEV_CERTIFICATE := $(OWN_KEYS_DIR)/releasekey
