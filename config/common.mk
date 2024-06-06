@@ -1,7 +1,7 @@
 PRODUCT_BRAND ?= LineageOS
 
 # Unofficial patch level
-ADDITIONAL_DEFAULT_PROPERTIES += ro.cm.custom_version=2025-01-01
+ADDITIONAL_DEFAULT_PROPERTIES += ro.cm.custom_version=2025-02-01
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
