@@ -3,13 +3,6 @@ PRODUCT_BRAND ?= LineageOS
 # Unofficial patch level
 ADDITIONAL_DEFAULT_PROPERTIES += ro.cm.custom_version=2024-12-01
 
-# Sign with own key
-ifneq ($(OWN_KEYS_DIR),)
-+PRODUCT_DEFAULT_DEV_CERTIFICATE := $(OWN_KEYS_DIR)/releasekey
-PRODUCT_OTA_PUBLIC_KEYS := $(OWN_KEYS_DIR)/releasekey
-PRODUCT_EXTRA_RECOVERY_KEYS := $(OWN_KEYS_DIR)/releasekey
-endif
-
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
