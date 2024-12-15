@@ -363,7 +363,6 @@ $(call prepend-product-if-exists, vendor/extra/product.mk)
 
 ifneq ($(OPTOUT_FOSS), true)
     PRODUCT_PACKAGES += \
-        AuroraDroid \
         AuroraStore \
         AuroraServices
 
