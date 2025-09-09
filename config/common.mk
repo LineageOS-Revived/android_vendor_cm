@@ -377,4 +377,7 @@ ifneq ($(OPTOUT_FOSS), true)
         FDroid \
         FDroidPrivilegedExtension \
         additional_repos.xml
+    DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/ota-microg
+else
+    DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/ota
 endif
