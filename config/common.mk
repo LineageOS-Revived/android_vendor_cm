@@ -125,7 +125,7 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     Eleven \
     ExactCalculator \
-    Fennec \
+    Fulguris \
     LockClock \
     Trebuchet \
     Updater \
